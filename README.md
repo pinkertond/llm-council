@@ -42,6 +42,8 @@ OPENROUTER_API_KEY=sk-or-v1-...
 
 Get your API key at [openrouter.ai](https://openrouter.ai/). Make sure to purchase the credits you need, or sign up for automatic top up.
 
+**Note:** The `.env` file is already in `.gitignore` and will not be committed to your repository. See [PRIVACY.md](PRIVACY.md) if you want to make your repository private.
+
 ### 3. Configure Models (Optional)
 
 Edit `backend/config.py` to customize the council:
@@ -78,6 +80,13 @@ npm run dev
 ```
 
 Then open http://localhost:5173 in your browser.
+
+## Privacy & Security
+
+Want to make your repository private? See [PRIVACY.md](PRIVACY.md) for a complete guide on:
+- Making your GitHub repository private
+- Security best practices
+- What's already protected (API keys, conversation data)
 
 ## Tech Stack
 
